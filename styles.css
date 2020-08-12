@@ -1,0 +1,95 @@
+
+@media screen and (max-width: 600px) {
+    .column.middle {
+     width: 100%;
+   }
+}
+body {
+
+    
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+#title {
+       
+    color: rgb(3, 42, 75);
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(238, 229, 148);
+
+}
+.login_form{
+
+    max-width: 500px;
+    margin: 2rem auto;
+    padding:2rem;
+    border: 2px solid rgb(240, 236, 11);
+    border-width:medium;
+    box-sizing: border-box;
+    
+ 
+   }
+ 
+.login_form label{
+ 
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+ 
+ 
+   }
+   #second {
+    text-transform: uppercase;
+    color: rgb(3, 42, 75);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: darkred;
+    text-decoration-style: wavy;
+  
+  
+  }
+ 
+
+.login_form input {
+    width: 100%;
+    padding: 12px 20px;
+    display: block;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(240, 236, 11);
+    background-color: white;
+    color: rgb(3, 42, 75); 
+  }
+  .login_form input[type = radio] {
+
+    border:solid rgb(240, 236, 11);
+    width: 50%;
+
+  }
+  .small{
+
+    color: rgb(3, 42, 75);
+
+  }
+  .radio {
+
+    display: inline-block;
+    color: rgb(3, 42, 75);
+   text-transform: capitalize;
+
+  }
+
+ .btn{
+    color: rgb(3, 42, 75);
+    background-color: rgb(240, 236, 11);
+    padding: 16px 32px;
+    border :none;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: max-content;
+    font-style: unset;
+  }
